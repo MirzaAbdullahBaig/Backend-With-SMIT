@@ -1,10 +1,10 @@
 import express from 'express'
-// import { products } from "./productData.mjs"
+import { products } from "./productData.mjs"
 import cors from "cors"
 
 const app = express()
 const port = process.env.port || 3000
-const products = []
+
 
 app.use(cors({origin: ["http://localhost:5173", "http://localhost:3000"]}))
 app.use(express.json())
