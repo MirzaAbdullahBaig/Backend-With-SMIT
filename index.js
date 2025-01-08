@@ -1,5 +1,5 @@
 import express from 'express'
-import { products } from "./productData.mjs"
+import { products } from "./productData.js"
 import cors from "cors"
 
 const app = express()

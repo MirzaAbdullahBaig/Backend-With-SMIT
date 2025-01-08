@@ -1,6 +1,7 @@
 {
   "name": "backed-with-smit",
   "version": "1.0.0",
+  "type": "module",
   "description": "First Class Backed - Kuch Bhi",
   "main": "index.mjs",
   "scripts": {
