@@ -5,7 +5,7 @@
   "description": "First Class Backed - Kuch Bhi",
   "main": "index.mjs",
   "scripts": {
-    "dev": "node --watch index.mjs",
+    "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
